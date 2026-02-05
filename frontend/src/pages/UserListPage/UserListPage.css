@@ -1,0 +1,62 @@
+.listing-page {
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+/* Top dark header */
+.top-header {
+  background: #2e2e2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  font-weight: 500;
+}
+
+/* Action row */
+.action-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Search */
+.search-section {
+  display: flex;
+  gap: 10px;
+}
+
+.search-section input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+.search-section button {
+  background: #8b2d2d;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+/* Right buttons */
+.button-section {
+  display: flex;
+  gap: 10px;
+}
+
+.add-btn {
+  background: #8b2d2d;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.csv-btn {
+  background: #b03a2e;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+}

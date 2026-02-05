@@ -1,0 +1,110 @@
+/* Card wrapper */
+.table-card {
+  margin: 0 20px 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header */
+.user-table thead {
+  background: #2e2e2e;
+  color: #fff;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.user-table tbody tr:hover {
+  background: #f5f5f5;
+}
+
+/* Avatar */
+.avatar {
+  width: 36px;
+  height: 36px;
+  background: #b03a2e;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+/* Status pill */
+.status-pill {
+  padding: 4px 10px;
+  border-radius: 14px;
+  border: none;
+  font-size: 12px;
+  appearance: none;
+}
+
+.status-pill.active {
+  background: #8b2d2d;
+  color: white;
+}
+
+.status-pill.inactive {
+  background: #ccc;
+  color: #333;
+}
+
+/* Action */
+.action-cell {
+  position: relative;
+}
+
+.kebab {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 22px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 90px;
+  z-index: 10;
+}
+
+.menu div {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.menu div:hover {
+  background: #f1f1f1;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.pagination button {
+  margin-left: 4px;
+  padding: 4px 8px;
+}
+
+.pagination .active {
+  background: #8b2d2d;
+  color: white;
+}

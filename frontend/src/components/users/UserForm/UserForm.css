@@ -1,0 +1,29 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-form label {
+  font-size: 14px;
+}
+
+.user-form input,
+.user-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.user-form button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #8b2d2d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.view-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-card-wrapper {
+  width: 360px;
+}

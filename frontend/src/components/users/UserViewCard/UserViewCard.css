@@ -1,0 +1,64 @@
+.profile-card {
+  background: white;
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: #8b2d2d;
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name {
+  margin-bottom: 15px;
+}
+
+.profile-info {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.profile-info div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.profile-info span:first-child {
+  font-weight: 500;
+}
+
+.status.active {
+  color: #8b2d2d;
+}
+
+.status.inactive {
+  color: #777;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-actions button {
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-actions .primary {
+  background: #8b2d2d;
+  color: white;
+}
